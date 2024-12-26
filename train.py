@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, confusion_matrix, f1_score
 import seaborn as sns
-import joblib
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 # Заголовок додатку

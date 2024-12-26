@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 
 print("model" in st.session_state , "features" in st.session_state , "feature_types" in st.session_state , "encoder" in st.session_state)
 if "model" in st.session_state and "features" in st.session_state and "feature_types" in st.session_state and "encoder_or_map" in st.session_state:
